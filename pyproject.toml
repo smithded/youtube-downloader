@@ -2,7 +2,7 @@
 name = "youtube-downloader"
 version = "1.0.0"
 description = "A CLI tool for downloading YouTube videos and playlists with concurrent and audio-only support."
-authors = [{name = "Your Name", email = "your.email@example.com"}]
+authors = [{name = "Smithded", email = ""}]
 license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.8"
