@@ -1,0 +1,20 @@
+[project]
+name = "youtube-downloader"
+version = "1.0.0"
+description = "A CLI tool for downloading YouTube videos and playlists with concurrent and audio-only support."
+authors = [{name = "Your Name", email = "your.email@example.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pytubefix>=6.17.2",
+    "tqdm>=4.66.5",
+    "click>=8.1.7",
+    "pyyaml>=6.0.2"
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.3.3"]
+
+[project.scripts]
+youtube-downloader = "youtube_downloader.cli:main"

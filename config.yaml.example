@@ -1,0 +1,8 @@
+output: downloads
+quality: highest
+prefix_index: true
+retry: false
+retry_attempts: 1
+max_concurrent: 4
+audio_only: false
+audio_format: mp4
