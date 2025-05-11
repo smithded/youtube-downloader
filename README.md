@@ -17,7 +17,7 @@ A modern Python CLI tool for downloading YouTube videos and playlists with concu
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/youtube-downloader.git
+   git clone https://github.com/smithded/youtube-downloader.git
    cd youtube-downloader
    ```
 
